@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Guessing Game</title>
+	<link rel="stylesheet" href="css/normalize.min.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<div class="wrapper">
+ 	<h1 id='guess'>Guess The Number</h1>
+ 	<main>
+ 		 <div class='buttons'>
+	 		 <input type="text" id='playersGuess' placeholder='Input Number 1-100' />
+	 		<h3 id='status'></h3>
+ 		 	<button type='button' id="playersGuessSubmit">Submit Your Guess</button>
+ 		  </div>
+         <div class='buttons'>
+	           <button type='button' id='newGame'>Play Again</button>
+	           <button type='button' id='hint'>Give me a hint</button>
+        </div> 
+        <h3 id='guess-count'>5 Guesses Remaining</h3> 
+
+ 	</main>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="js/gg.js"></script>
+</body>
+</html>

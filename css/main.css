@@ -1,0 +1,50 @@
+// Customized CSS
+body {
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 20px;
+	text-align: center;
+	color: blue;
+}
+.wrapper {
+	width: 80%;
+	margin: 10px auto;
+}
+
+h1 {
+	color: #7BC8CF;
+	text-align: center;
+	line-height: 2;
+}
+
+h3 {
+	text-align: center;
+}
+
+.buttons {
+	display: block;
+	text-align: center;
+	padding: 10px;
+}
+
+button {
+	padding: 8px;
+}
+
+input {
+	padding: 8px;
+}
+
+.cold-bkg {
+	background-color: #B0E5FA;
+}
+
+.warm-bkg {
+	background-color: #FFD9E6;
+}
+
+.hot-bkg {
+	background-color: #D34425;
+}
+
